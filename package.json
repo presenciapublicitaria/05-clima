@@ -1,0 +1,14 @@
+{
+    "name": "clima",
+    "version": "1.0.0",
+    "description": "Clima del mundo",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Cristian Samaniego",
+    "license": "ISC",
+    "dependencies": {
+        "yargs": "^15.3.1"
+    }
+}
