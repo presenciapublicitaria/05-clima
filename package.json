@@ -9,6 +9,7 @@
     "author": "Cristian Samaniego",
     "license": "ISC",
     "dependencies": {
+        "axios": "^0.19.2",
         "yargs": "^15.3.1"
     }
 }
