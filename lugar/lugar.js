@@ -26,7 +26,8 @@ const getLugarLatLon = async(direccion) => {
 
     instance.get()
         .then(resp => {
-            console.log(resp.data.coord.lon);
+            // console.log(resp.data.coord.lon);
+            return resp.data.coord
         })
         .catch(err => {
             console.log('Error...!!!', err);
